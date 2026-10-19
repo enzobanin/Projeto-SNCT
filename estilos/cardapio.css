@@ -1,0 +1,42 @@
+
+/* Título do cardápio */
+.titulo {
+    text-align: center;
+    color: #6f4e37;
+    font-size: 28px;
+    margin: 15px 0 25px;
+}
+
+/* Produtos organizados em uma grade */
+#article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Cada produto */
+#article figure {
+    width: 220px;
+    background-color: #fffaf3;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Imagens dos produtos */
+.pratos {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Nome dos produtos */
+.legenda {
+    margin-top: 12px;
+    color: #4b2e24;
+    font-weight: bold;
+    font-size: 16px;
+}

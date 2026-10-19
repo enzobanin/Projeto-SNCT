@@ -1,0 +1,174 @@
+/* Configurações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e7;
+    color: #3e2723;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b2e24;
+    color: #fff3e0;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Logo */
+header img {
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+/* Título principal */
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Frase abaixo do título */
+header p {
+    font-size: 16px;
+    color: #e6c9a8;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #e6c9a8;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Links do menu */
+nav a {
+    color: #4b2e24;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #a65e2e;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Títulos das seções */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6f4e37;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+}
+
+/* Imagens do conteúdo */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4b2e24;
+    color: #fff3e0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Links do rodapé */
+footer a {
+    color: #e6c9a8;
+}
+
+/* Área principal do site */
+.principal, .cardapio {
+    max-width: 1100px;
+    margin: 15px auto;
+    padding: 10px 20px;
+}
+
+/* Menu de navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+/* Seção com as duas colunas */
+#secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/* Coluna da esquerda: localização */
+.local {
+    width: 45%;
+    order: 1;
+}
+
+/* Coluna da direita: apresentação */
+.sobre {
+    width: 55%;
+    order: 2;
+}
+
+/* Títulos */
+#secao h2 {
+    color: #6f4e37;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos */
+#secao p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Imagem da cafeteria */
+.img_cafeteria {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+}
+
+
+/* Página ocupa pelo menos a altura da tela */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* O conteúdo ocupa o espaço disponível */
+main {
+    flex: 1;
+}
